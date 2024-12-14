@@ -1,0 +1,204 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Lilita One', 'Lilita One';
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+nav {
+    background: #66ece6;
+    padding: 10px 0;
+}
+
+nav .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a {
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #000000;
+    font-family:'tahoma';
+}
+
+nav .menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav .menu ul li {
+    margin-left: 20px;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    transition: color 0.3s;
+    font-family: 'embed code';
+    font-weight: bold;
+}
+
+nav .menu ul li a:hover {
+    color: #f851ad;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+#home img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+#home .kolom {
+    max-width: 45%;
+}
+
+#home .kolom h2 {
+    color: #2fc5ca;
+    font-size: 2.5em;
+}
+
+#home .kolom .tbl-biru {
+    display: inline-block;
+    background: #f8d7f7;
+    color: #23b6cf;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#home .kolom .tbl-biru:hover {
+    background: #45cbec;
+    color: #fff;
+}
+
+/* Section Titles */
+section h2 {
+    color: #359ad4;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family:'Times new roman';
+}
+
+section .deskripsi {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+#about {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#about .kolom {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about .tbl-biru {
+    display: inline-block;
+    background: #18c9c0;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#about .tbl-biru:hover {
+    background: #f8d7f7;
+    color: #39b5b9;
+}
+
+/* Products Section */
+#products {
+    margin: 50px 0;
+}
+
+.Menu-Andalan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Kartu-Menu {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Kartu-Menu img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Kartu-Menu p {
+    font-size: 1.2em;
+    color: #239989;
+    font-weight: bold;
+    font-family:'Lilita One'
+}
+
+/* Contact Section */
+#contact {
+    background: #62ebf0;
+    padding: 50px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #000000;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Lilita One';
+}
+
+.footer-section p {
+    margin: 5px 0;
+    font-family: 'Lilita One';
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: hsl(229, 95%, 60%);
+    color: #fff;
+    font-size: 0.9em;
+}
